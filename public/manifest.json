@@ -1,0 +1,17 @@
+{
+  "short_name": "React App",
+  "name": "Create React App Sample",
+  "icons": {
+    "192": "logo192.png"
+  },
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff",
+  "version": "0.0.1",
+  "manifest_version": 2,
+  "browser_action": {
+    "default_popup": "index.html"
+  },
+  "permissions": ["tabs", "activeTab"]
+}
